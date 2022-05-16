@@ -4,7 +4,7 @@ let tabIndicator=document.getElementsByClassName("tab-indicator")[0];
 let tabBody=document.getElementsByClassName("tab-body")[0];
 
 
-menuItems.forEach(elem=>{
+menuItems.forEach((elem, i)=>{
     elem.addEventListener('click',function(){
         let currentActiveItem = document.querySelector('.active-menu-item');
         currentActiveItem.classList.remove('active-menu-item');
@@ -15,16 +15,3 @@ menuItems.forEach(elem=>{
     })
 })
 
-// let menuItem=document.getElementsByClassName(' menu-item active-menu-item')
-
-// menuItem.forEach(elem=>{
-//     elem.addEventListener('click',function(){
-//         alert('bcjb')
-//         let txtbaki=document.getElementById('baki-text')
-//         txtbaki.style.display= 'unset'
-//         let txtseki=document.getElementById('seki-text')
-//         txtseki.style.display='hide'
-//         let txtgence=document.getElementById('gence-text')
-//         txtgence.style.display='hide'
-//     })
-// })
