@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+.tab{
+    width: 400px;
+    margin: auto;
+  position: absolute;
+    overflow: hidden;
+}
+.tab .tab-body{
+    width: 100%;
+    height: 120px;
+    border: 1px solid;
+    position: relative; 
+}
+.tab .tab-body > div{
+    position: absolute;
+    top: -200%;
+    opacity: 0%;
+    margin-top: 5px;
+    transform: scale(0.9);
+    transition:opacity 500ms ease-in-out 0ms,
+        transform 500ms ease-in-out 0ms;
+
+}
+
+.tab .tab-body > div.active{
+    opacity: 1;
+    top: 0px;
+    transform: scale(1);
+}
+
+#tab-menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 50px;
+}
+
+#tab-menu .menu-item{
+    width: 100%;
+    height: 60px;
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+    background-color: rgb(206, 201, 201);
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+
+}
+
+.tab .tab-indicator{
+    position: relative;
+    width: calc(100% / 4);
+    height: 5px;
+    left: 0px;
+}
+
+#tab-menu .menu-item:hover{
+    border: 1px solid rgb(28, 28, 28);
+}
+
+#tab-menu .active-menu-item{
+    background-color: rgb(113, 111, 111);
+}

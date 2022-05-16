@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    display: flex;
+    justify-content: between;
+    background-color: rgb(34, 30, 56);
+    height: 40px;
+
+}
+
+.header-top .col-7 ul {
+    display: flex;
+
+}
+
+.header-top .col-7 ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.header-top .col-7 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-top .col-7 ul li i {
+    color: #fc5638;
+}
+
+.header-top .col-5 ul {
+    display: flex;
+
+}
+
+.header-top .col-5 ul li i {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.header-top .col-5 button {
+    width: 100px;
+    height: 40px;
+    background-color: #fc5638;
+    color: white;
+    margin-left: 20px;
+}
+
+.header-middle {
+    padding: 50px;
+}
+
+.header-middle .col-6 ul {
+    display: flex;
+
+}
+
+.header-middle .col-6 ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.header-middle .col-3 .icons {
+    display: flex;
+    font-size: 20px;
+
+}
+
+.header-middle .col-3 .icons i {
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.footer-top {
+    background-color: #171B2A;
+    ;
+    padding: 20px;
+    color: white;
+
+}
+
+.footer-top ul {
+    padding-left: 0px;
+}
+
+.footer-top .col-3 p {
+    padding: 10px;
+    text-align: left;
+}
+
+.footer-top .col-3 ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 7px;
+
+}
+
+.footer-top .col-3 ul li {
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+}
+
+.footer-top .col-3 .icons-footer i {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.footer-top .col-2 ul li {
+    list-style: none;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.footer-top .col-3 .input-group {
+    height: 60px;
+    margin-bottom: 50px;
+}
+
+.footer-top .col-3 .input-group .btn {
+    background-color: #fc5638;
+    color: white;
+}
+
+.footer-btm {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #282b38;
+    color: white;
+
+}
+
+.footer-btm ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-btm ul li {
+    list-style: none;
+    margin-left: 20px;
+
+}
